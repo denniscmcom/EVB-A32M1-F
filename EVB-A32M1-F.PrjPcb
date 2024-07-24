@@ -102,37 +102,54 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=YWUJXGDL
 
+[Document4]
+DocumentPath=EVB-A32M1-F_PCB_Doc.PcbDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=RSQQCOXL
+
 [GeneratedDocument1]
 DocumentPath=Project Outputs for EVB-A32M1-F\Design Rule Check - EVB-A32M1-F_PCB.html
 DItemRevisionGUID=
 
 [Parameter1]
+Name=CompanyName
+Value=Librethings
+
+[Parameter2]
 Name=CopyrightYear
 Value=2024
 
-[Parameter2]
-Name=License
-Value=CERN-OHL-S
-
 [Parameter3]
-Name=Ref
-Value=EVB-A32M1-F
-
-[Parameter4]
-Name=Title
-Value=Libre Micro
-
-[Parameter5]
-Name=Revision
-Value=0.1
-
-[Parameter6]
 Name=DrawnBy
 Value=Dennis C. M.
 
+[Parameter4]
+Name=License
+Value=CERN-OHL-S
+
+[Parameter5]
+Name=Ref
+Value=EVB-A32M1-F
+
+[Parameter6]
+Name=Revision
+Value=0.1
+
 [Parameter7]
-Name=CompanyName
-Value=Librethings
+Name=Title
+Value=Libre Micro
 
 [Configuration1]
 Name=Sources
@@ -374,6 +391,11 @@ OutputName3=Test Point Report
 OutputDocumentPath3=
 OutputVariantName3=[No Variations]
 OutputDefault3=0
+OutputType4=Wire Bonding Table
+OutputName4=Wire Bonding Table Report
+OutputDocumentPath4=
+OutputVariantName4=[No Variations]
+OutputDefault4=0
 
 [OutputGroup5]
 Name=Fabrication Outputs
@@ -1032,6 +1054,7 @@ Type150=2
 Type151=2
 Type152=1
 Type153=1
+Type154=0
 
 [ERC Connection Matrix]
 L1=NNNNNNNNNNNWNNNWW
